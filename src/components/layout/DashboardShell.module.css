@@ -1,0 +1,48 @@
+.page {
+  min-height: 100vh;
+  background: var(--bg-page);
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+}
+
+.frame {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.panel {
+  flex: 1;
+  background: #fbfafb;
+  min-height: 100vh;
+  padding: 28px 32px 40px;
+  overflow-x: hidden;
+}
+
+.mobileNavWrap {
+  display: none;
+}
+
+.mobileNavSpacer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .frame {
+    flex-direction: column;
+  }
+  .frame > :global(aside) {
+    display: none;
+  }
+  .panel {
+    padding: 16px 14px 84px;
+  }
+  .mobileNavWrap {
+    display: block;
+  }
+  .mobileNavSpacer {
+    display: block;
+    height: 0;
+  }
+}

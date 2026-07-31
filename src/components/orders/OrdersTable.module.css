@@ -1,0 +1,214 @@
+.tableWrap {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #efeaee;
+  padding: 4px 6px;
+}
+
+.rowIndex {
+  color: #b7aeb6;
+  font-size: 13px;
+}
+
+.userName {
+  font-weight: 700;
+  font-size: 13.5px;
+  color: #1c1418;
+}
+
+.copyLine {
+  font-size: 12px;
+  color: #8a8189;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.caseNo {
+  font-size: 12px;
+  color: #8a8189;
+  margin-top: 2px;
+}
+
+.copyAddressBtn {
+  margin-top: 8px;
+  border-radius: 20px;
+  font-size: 11px;
+  background: #f4f0f3;
+  border: none;
+  color: #4a4249;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 13px;
+  color: #1c1418;
+}
+
+.muted {
+  font-size: 12px;
+  color: #8a8189;
+  margin-top: 2px;
+}
+
+.statusSelect {
+  width: 130px;
+  font-size: 12px;
+  color: #b7aeb6 !important;
+}
+
+.esignLink {
+  font-size: 12px;
+  color: #5c1f44;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.chooseTagBtn {
+  border-radius: 20px;
+  font-size: 11px;
+  border: 1px solid #e7e2e6;
+  color: #4a4249;
+}
+
+.tagWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  max-width: 210px;
+}
+
+.clerkIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+  color: #b7aeb6;
+  font-size: 13px;
+}
+
+.clerkIcons svg {
+  cursor: pointer;
+}
+
+.assignBtn {
+  background: #5c1f44;
+  border-radius: 20px;
+}
+
+.uploadBtn {
+  background: #5c1f44;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 11px;
+}
+.uploadBtn:hover {
+  color: #fff !important;
+  background: #46173a !important;
+}
+
+.emptyWrap {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #efeaee;
+  padding: 60px 0;
+}
+
+/* ---- Mobile card list ---- */
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #efeaee;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.cardHeaderRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cardIndex {
+  color: #b7aeb6;
+  font-size: 12px;
+}
+
+.cardName {
+  font-weight: 700;
+  font-size: 15px;
+  color: #1c1418;
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #8a8189;
+}
+
+.cardDivider {
+  height: 1px;
+  background: #f0ebee;
+  margin: 10px 0;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  color: #1c1418;
+  padding: 3px 0;
+}
+
+.cardLabel {
+  color: #8a8189;
+}
+
+.cardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.addTagBtn {
+  border: none;
+  background: transparent;
+  color: #5c1f44;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cardActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.clerkTag {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a4249;
+}
+
+.paginationWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}

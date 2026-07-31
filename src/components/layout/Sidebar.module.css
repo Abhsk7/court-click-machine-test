@@ -1,0 +1,136 @@
+.sidebar {
+  width: 76px;
+  min-width: 76px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  height: 100%;
+}
+
+.sidebarMobile {
+  width: 100%;
+  background: var(--sidebar-bg);
+  border-top: 1px solid var(--sidebar-border);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 4px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 40;
+}
+
+.logo {
+  margin-bottom: 32px;
+}
+
+.sidebarMobile .logo {
+  display: none;
+}
+
+.logoBadge {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent-from), var(--accent-to));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoBadgeInner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.sidebarMobile .nav {
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.navItem {
+  position: relative;
+  width: 48px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #8a8189;
+  font-size: 19px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.navItem:hover {
+  color: #efe9ec;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.navIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: #f2c98f;
+  background: rgba(224, 138, 83, 0.12);
+}
+
+.activeBar {
+  position: absolute;
+  left: -14px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, var(--accent-from), var(--accent-to));
+}
+
+.sidebarMobile .activeBar {
+  left: 50%;
+  top: -8px;
+  bottom: auto;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 3px;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.sidebarMobile .footer {
+  display: none;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #2a2530;
+  color: #cfc7cd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
