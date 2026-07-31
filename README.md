@@ -98,5 +98,7 @@ src/
 
 ## Deployment
 
-Not deployed as part of this handoff — see the accompanying message for
-recommended next steps (e.g. Vercel) to get a deployment URL for submission.
+Live Demo:
+https://court-click-machine-test-seven.vercel.app/
+
+The application is deployed on Vercel and can be accessed using the link above.
