@@ -95,10 +95,11 @@ src/
   theme/               # color tokens
   types/               # shared TypeScript types
 ```
-
 ## Deployment
 
 Live Demo:
 https://court-click-machine-test-seven.vercel.app/
 
-The application is deployed on Vercel and can be accessed using the link above.
+GitHub Repository:
+https://github.com/Abhsk7/court-click-machine-test
+
